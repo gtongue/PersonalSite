@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>DirectX 12 Engine</title>
+		<title>Stock Tool</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,40 +21,42 @@
 
 				<!-- Header -->
 				<!-- Note: The "styleN" class below should match that of the banner element. -->
-				<header id="header" class="alt">
-					<a href="index.html" class="logo"><strong>Garrett Tongue</strong> <span>Software Engineer</span></a>
-					<nav>
-						<a href="#menu">Menu</a>
-					</nav>
-				</header>
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Garrett Tongue</strong> <span>Software Engineer</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
 
-			<!-- Menu -->
-				<nav id="menu">
-					<ul class="links">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="waves.html">Wave Simulation</a></li>
-						<li><a href="programming.html">Programming 200</a></li>
-						<li><a href="directx.html">DirectX12 Engine</a></li>
-						<li><a href="blob.html">Blob Darwinism</a></li>
-						<li><a href="astronomy.html">Astronomy Tool</a></li>
-						<li><a href="stocks.html">Stock Tool</a></li>
-					</ul>
-				</nav>
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="waves.html">Wave Simulation</a></li>
+							<li><a href="programming.html">Programming 200</a></li>
+							<li><a href="directx.html">DirectX12 Engine</a></li>
+							<li><a href="blob.html">Blob Darwinism</a></li>
+							<li><a href="astronomy.html">Astronomy Tool</a></li>
+							<li><a href="stocks.html">Stock Tool</a></li>
+						</ul>
+					</nav>
 
 				<!-- Banner -->
 				<!-- Note: The "styleN" class below should match that of the header element. -->
 					<section id="banner" class="">
 						<div class="inner">
 							<span class="image">
-								<img src="images/DirectX.PNG" alt="" />
+								<img src="images/stocks.png" alt="" />
 							</span>
 							<header class="major">
-								<h1>DirectX 12 Engine</h1>
+								<h1>Stock Tool</h1>
 							</header>
 							<div class="content">
-                <p>A DirectX 12 Rendering Engine built within C++</p>
+                <p>A tool written in Java with a UI in development in JavaFX. Used for market research. Unfortuanately recently Yahoo Finance
+									shut down their finance API so this project is no longer functional.
+								</p>
                 <ul class="actions">
-                  <li><a href="https://github.com/gtongue/DXGameEngine" class="button special">Github</a></li>
+                  <li><a href="https://github.com/gtongue/StockTool" class="button special">Github</a></li>
                 </ul>
 							</div>
 						</div>
@@ -67,72 +69,36 @@
 							<section id="two" class="spotlights">
 								<section>
 									<a class="image">
-										<img src="images/directx/wireframe.png" alt="" data-position="top center" />
+										<img src="images/stocks/etfs.png" alt="" data-position="top center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Wireframe Rendering</h3>
+												<h3>ETF Analysis</h3>
 											</header>
                        <p>
-                         Easily switch between different rendering techniques and shader programs.
+                         Using API calls to Yahoo Finance and parsing through the HTML of a few websites the program can generate a csv file showing how much of a stocks market cap is owned within ETFs.
                        </p>
 										</div>
 									</div>
                 </section>
                 <section>
                     <a class="image" style="margin: auto 0;">
-                      <img src="images/directx/physics.gif" alt=""  data-position="top center" />
+                      <img src="images/stocks/stock.png" alt=""  data-position="top center" />
                     </a>
                     <div class="content">
                       <div class="inner">
                         <header class="major">
-                          <h3>Features</h3>
+                          <h3>Fetch Stock Data</h3>
                         </header>
                         <ul>
-                          <li>Lighting</li>
-                          <li>Texturing</li>
-                          <li>3D Rendering</li>
-                          <li>Simple Physics</li>
-                          <li>Scenes</li>
+													<li>Historical Data</li>
+													<li>Name, Symbol, Sector</li>
+													<li>Current Price, EPS, PE, DPS, 52Low, 52High, Market Cap</li>
                         </ul>
                       </div>
                     </div>
                   </section>
-                  <section>
-                      <a class="image">
-                        <img src="images/directx/model.PNG" style = "height: 300px; object-fit: cover;" alt="" data-position="center center" />
-                      </a>
-                      <div class="content">
-                        <div class="inner">
-                          <header class="major">
-                            <h3>Loading Models</h3>
-                          </header>
-                          <p>
-                            Models are converted into a custom format currently can convert OBJ files and FBX files
-                          </p>
-                        </div>
-                      </div>
-                    </section>
-                  <section>
-                      <a class="image" style="margin: auto 0">
-                        <img src="images/directx/Scene.PNG"  alt="" data-position="center center" />
-                      </a>
-                      <div class="content">
-                        <div class="inner">
-                          <header class="major">
-                            <h3>Scenes</h3>
-                          </header>
-                          <p>
-                            Scenes are used to define what resources must be loaded in order to render the scene. These being:
-                            <li>Textures</li>
-                            <li>Models</li>
-                            <li>Materials</li>
-                            <li>Objects</li>
-                          </p>
-                        </div>
-                      </div>
-                    </section>
 							</section>
 
 					</div>
@@ -201,7 +167,6 @@
 						</ul>
 					</div>
 				</footer>
-
 			</div>
 
 		<!-- Scripts -->
